@@ -1,25 +1,28 @@
-// globally setup the hooks for creating, opening browser
 const playwright = require('playwright')
 const { Before, After, BeforeAll, AfterAll } = require('@cucumber/cucumber')
 
+// launch the browser
 BeforeAll(async () => {
-  // launch chrome browser
   console.log('Launch Browser')
-  global.browser = await playwright['chromium'].launch({ headless: true })
+  global.browser = await playwright['chromium'].launch({ headless: false })
 })
+
+// close the browser
 AfterAll(async () => {
-  // close browser after test
   console.log('Close Browser')
   await global.browser.close()
 })
+
+// Create a new browser context and page per scenario
 Before(async () => {
-  // create new context & new page
-  console.log('create new context & new page')
+  console.log('Create new context and page')
   global.context = await global.browser.newContext()
+  global.page = await global.context.newPage()
 })
+
+// cleanup after each scenario
 After(async () => {
-  // remove new context & close page
-  console.log('remove new context & close page')
+  console.log('Close context and page')
   await global.page.close()
   await global.context.close()
 })

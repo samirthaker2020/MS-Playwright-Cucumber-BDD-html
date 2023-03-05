@@ -1,0 +1,79 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-action;as-a-user-i-want-to-login-into-appliaction-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "As a user I want to login into appliaction with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 340343707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user has visited the login page",
+            "match": {
+              "location": "step-definitions/login-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246595042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user provides valid login credentials",
+            "match": {
+              "location": "step-definitions/login-step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 146373584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user should see the homepage",
+            "match": {
+              "location": "step-definitions/login-step.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10269791
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 33600250
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-action",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login action",
+    "tags": [],
+    "uri": "features/login.feature"
+  }
+]
