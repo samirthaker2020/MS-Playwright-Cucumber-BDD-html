@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 425197290
+              "duration": 337388875
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 4,
             "name": "the user has visited the login page",
             "match": {
-              "location": "step-definitions/login-step.js:7"
+              "location": "E2E/step-definitions/E2E/login/login-step.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 328766541
+              "duration": 249044958
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 5,
             "name": "the user provides valid login credentials",
             "match": {
-              "location": "step-definitions/login-step.js:11"
+              "location": "E2E/step-definitions/E2E/login/login-step.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 133949292
+              "duration": 139762291
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 6,
             "name": "the user should see the homepage",
             "match": {
-              "location": "step-definitions/login-step.js:15"
+              "location": "E2E/step-definitions/E2E/login/login-step.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 9948832
+              "duration": 9398667
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 33450166
+              "duration": 34987874
             }
           }
         ],
@@ -74,6 +74,6 @@
     "keyword": "Feature",
     "name": "Login action",
     "tags": [],
-    "uri": "features/login.feature"
+    "uri": "E2E/features/E2E/login/login.feature"
   }
 ]

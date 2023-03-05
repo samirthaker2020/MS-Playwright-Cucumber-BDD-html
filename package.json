@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json --publish-quiet && node reporter.js",
+    "test": "./node_modules/.bin/cucumber-js --require cucumber.js --require E2E/step-definitions/**/*.js -f json:cucumber_report.json --publish-quiet && node reporter.js",
     "report": "node reporter.js"
   },
   "repository": {

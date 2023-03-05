@@ -1,6 +1,6 @@
 const { Given, When, Then, defineStep } = require('@cucumber/cucumber')
-const { CommomFunctions } = require('../page-objects/common/commonFunctions')
-const { CommonString } = require('../page-objects/common/commonString')
+const { CommomFunctions } = require('../../../page-objects/common/commonFunctions')
+const { CommonString } = require('../../../page-objects/common/commonString')
 const commomStrings = new CommonString()
 const commomFunction = new CommomFunctions()
 
