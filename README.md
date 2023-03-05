@@ -19,11 +19,11 @@ Behavior-driven development (BDD) is an Agile software development methodology i
 4. Install vs code extensions- ESLint v2.4.0<br>
 5. Install vs code extensions-  Prettier - Code formatter v9.10.4<br>
 <h2>Installation</h2><br>
-1. Clone the repo- <br>
+1. Clone the repo- gh repo clone samirthaker2020/MS-Playwright-Cucumber-BDD-html<br>
 2. Install required dependency node_modules via running command (npm i or npm install ) in vs code terminal.<br>
 <br>
 <h2>Usage</h2><br>
-1. To run the Test - Open vs code terminal and type  npm run test<br>
+1. To run the test - Open vs code terminal and type  npm run test<br>
 2. To generate report run - npm run report<br>
 <br>
 <h2> Reference</h2><br>
@@ -31,6 +31,7 @@ Behavior-driven development (BDD) is an Agile software development methodology i
 1. For setting up ESLint & Prettier code formatting tools- https://dev.to/andrewbaisden/how-to-use-eslint-and-prettier-for-code-analysis-and-formatting-1b4g<br>
 <br>
 Report Image:
+<br>https://user-images.githubusercontent.com/46947688/222989948-1427ea5e-c81b-447d-b809-15d87719098f.png)
 <br>
-
-<br><br>
+https://user-images.githubusercontent.com/46947688/222989968-72a638b0-dac1-4284-ae20-d4b1f0849be8.png)
+<br>
