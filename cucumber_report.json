@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 340343707
+              "duration": 310786667
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 246595042
+              "duration": 287573917
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 146373584
+              "duration": 169037249
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 6,
             "name": "the user should see the homepage",
             "match": {
-              "location": "step-definitions/login-step.js:17"
+              "location": "step-definitions/login-step.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 10269791
+              "duration": 9784874
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 33600250
+              "duration": 33042417
             }
           }
         ],

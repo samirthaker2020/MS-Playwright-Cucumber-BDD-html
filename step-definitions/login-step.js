@@ -1,19 +1,17 @@
 const { Given, When, Then, defineStep } = require('@cucumber/cucumber')
-const { CommomFunction } = require('../page-objects/common/commonFunction')
+const { CommomFunctions } = require('../page-objects/common/commonFunctions')
 const { CommonString } = require('../page-objects/common/commonString')
-const commom_strings = new CommonString()
-const commom_functions = new CommomFunction()
+const commomStrings = new CommonString()
+const commomFunction = new CommomFunctions()
 
 Given('the user has visited the login page', async () => {
-  await page.goto(commom_strings.base_url)
+  await commomFunction.navigateToLoginScreen()
 })
 
 When('the user provides valid login credentials', async () => {
-  await page.fill('#user-name', 'standard_user')
-  await page.fill('#password', 'secret_sauce')
-  await page.click('#login-button')
+  await commomFunction.submitLoginForm()
 })
 
 Then('the user should see the homepage', async () => {
-  await page.waitForSelector('.inventory_list')
+  await commomFunction.assertUserIsLoggedIn()
 })
