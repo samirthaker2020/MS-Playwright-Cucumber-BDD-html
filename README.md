@@ -33,5 +33,5 @@ Behavior-driven development (BDD) is an Agile software development methodology i
 Report Image:
 <br><img width="1403" alt="img2" src="https://user-images.githubusercontent.com/46947688/222989948-1427ea5e-c81b-447d-b809-15d87719098f.png">
 <br>
-<img width="1403" alt="img2" src="https://user-images.githubusercontent.com/46947688/222989968-72a638b0-dac1-4284-ae20-d4b1f0849be8.png)">
+<img width="1403" alt="img2" src="https://user-images.githubusercontent.com/46947688/222989968-72a638b0-dac1-4284-ae20-d4b1f0849be8.png">
 <br>
