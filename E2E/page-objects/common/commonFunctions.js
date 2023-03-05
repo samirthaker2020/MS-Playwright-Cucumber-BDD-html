@@ -1,3 +1,6 @@
+const { expect } = require('chai')
+const { CommonObjects } = require('./commonObjects')
+const commonObject = new CommonObjects()
 class CommomFunctions {
   async navigateToLoginScreen() {
     await page.goto('https://www.saucedemo.com/')
@@ -21,6 +24,12 @@ class CommomFunctions {
 
   async pause() {
     await page.waitForTimeout(3000)
+  }
+
+  async verifyText(text, element) {
+    const response = page.locator(element)
+    expect(await response.textContent()).to.be.eql(text)
+    console.log(await response.textContent())
   }
 }
 
